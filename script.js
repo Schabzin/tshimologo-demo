@@ -1,7 +1,7 @@
 const UNIFORM = {
     1: { day: "Monday",    colour: "red",   css: "--mon" },
     2: { day: "Tuesday",   colour: "green",  css: "--tue" },
-    3: { day: "Wednesday", colour: "orange", css: "--wed", },
+    3: { day: "Wednesday", colour: "orange", css: "--wed", darkText: true },
     4: { day: "Thursday",  colour: "blue",    css: "--thu", },
     5: { day: "Friday",    colour: "yellow", css: "--fri", darkText: true  },
 };

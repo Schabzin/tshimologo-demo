@@ -134,9 +134,9 @@ th, td { text-align: left; padding: 10px; border-bottom: 1px solid #eee; }
 
 .bg-mon { background: var(--mon); }
 .bg-tue { background: var(--tue); }
-.bg-wed { background: var(--wed); }
+.bg-wed { background: var(--wed); color: var(--ink); }
 .bg-thu { background: var(--thu); }
-.bg-fri { background: var(--fri); }
+.bg-fri { background: var(--fri); color: var(--ink); }
 
 @media (min-width: 640px) {
     .gallery-grid {
