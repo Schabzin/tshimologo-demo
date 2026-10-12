@@ -1,9 +1,9 @@
 const UNIFORM = {
-    1: { day: "Monday",    colour: "blue",   css: "--mon" },
+    1: { day: "Monday",    colour: "red",   css: "--mon" },
     2: { day: "Tuesday",   colour: "green",  css: "--tue" },
-    3: { day: "Wednesday", colour: "yellow", css: "--wed", darkText: true },
-    4: { day: "Thursday",  colour: "red",    css: "--thu", },
-    5: { day: "Friday",    colour: "purple", css: "--fri"  },
+    3: { day: "Wednesday", colour: "orange", css: "--wed", },
+    4: { day: "Thursday",  colour: "blue",    css: "--thu", },
+    5: { day: "Friday",    colour: "yellow", css: "--fri", darkText: true  },
 };
 
 const FEES = [
@@ -14,7 +14,7 @@ const FEES = [
     { group: "Grade R (6 years)", amount: 500 },
 ];
 
-const WHATSAPP_NUMBER = "27732239762";
+const WHATSAPP_NUMBER = "27824237031";
 const WHATSAPP_MESSAGE = "Hello Tshimologo, I would like to enquire about enrolling my child.";
 
 function showTodaysColour(today) {

@@ -1,9 +1,9 @@
 :root {
-    --mon: #2f6fdb;
+    --mon: #d93a2b;
     --tue: #2e9e5b;
-    --wed: #f2b705;
-    --thu: #e0483e;
-    --fri: #7b4fc9;
+    --wed: #f28c28;
+    --thu: #2f6fdb;
+    --fri: #f2c200;
     --ink: #1f2a37;
     --paper: #fffaf2;
     --card: #ffffff;
@@ -142,4 +142,7 @@ th, td { text-align: left; padding: 10px; border-bottom: 1px solid #eee; }
     .gallery-grid {
         grid-template-columns: repeat(3, 1fr);
     }
+}
+.btn-directions {
+    background: var(--ink);
 }
